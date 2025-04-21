@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter - Schedule Your Meeting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Juan Pablo Potter Wizarding World</h1>
+        <p>Schedule your magical meeting at Hogwarts!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main image (Hogwarts Castle) -->
+    <img src="/logo.png" alt="Hogwarts Castle" class="main-image">
+
+    <main>
+        <div class="meeting-form">
+            <h2>Schedule a Magical Meeting</h2>
+            <form id="meetingForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" required placeholder="Enter your name">
+               
+                <label for="meetingDate">Meeting Date:</label>
+                <input type="date" id="meetingDate" required>
+
+                <label for="time">Meeting Time:</label>
+                <input type="time" id="time" required>
+
+                <button type="submit">Schedule Meeting</button>
+            </form>
+        </div>
+
+        <div id="scheduledMeetings" class="scheduled-meetings">
+            <h2>Scheduled Meetings</h2>
+            <ul id="meetingList">
+                <!-- Scheduled meetings will appear here -->
+            </ul>
+        </div>
+    </main>
+
+    <!-- Another image (Gorda image) -->
+    <img src="/gorda.jpg" alt="Gorda Image" class="main-image">
+
+    <footer>
+        <p>&copy; 2025 Hogwarts School of Witchcraft and Wizardry</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
